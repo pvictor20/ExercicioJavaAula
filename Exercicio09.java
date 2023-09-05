@@ -1,3 +1,13 @@
+/*
+ * Escreva um programa que lê duas notas de um estudante, ambas sendo valores reais. O programa deve calcular a
+média e exibir um texto para o usuário conforme a tabela a seguir:
+Nota Texto
+média >= 9 Parabéns, continue assim!
+7 <= média < 9 Aprovado.
+6 <= média < 7 Aprovado no limite, estude um pouco mais.
+2 < = média < 6 Não está aprovado mas ainda pode fazer a segunda época
+média < 2 Reprovado. Nos vemos semestre que vem.
+ */
 import java.util.Scanner;
 
 public class Exercicio09 {
