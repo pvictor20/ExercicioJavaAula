@@ -16,10 +16,10 @@ public class Exercicio10 {
 
             if (resposta.equalsIgnoreCase("s")) {
                 System.out.println("Sim");
-                break; // Sai do loop quando a resposta é "s"
+                break; 
             } else if (resposta.equalsIgnoreCase("n")) {
                 System.out.println("Não");
-                break; // Sai do loop quando a resposta é "n"
+                break; 
             } else {
                 System.out.println("Opção inválida. Responda com 's' para Sim ou 'n' para Não.");
             }
