@@ -29,31 +29,19 @@ public class Exercicio11 {
         d = 4;
         e = 5;
 
-        if (codigo == 2 || codigo == 5) {
+        if (codigo == b || codigo == e) {
             System.out.println("Código é igual a 2 ou 5");
+            System.out.println("O valor da carga é de " + (carga - (carga/12)));
+        }
+        else if (codigo == a || codigo == c || codigo == d) {
+            System.out.println("Código igual a 1, ou 3 ou 4");
+            System.out.println("O valor da carga é de " + (carga - (carga/15)));
         }
 
-        // Resto do seu código...
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         sc.close();
+
     }
-}
+
+     
+    }
+
